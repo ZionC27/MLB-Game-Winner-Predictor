@@ -69,6 +69,34 @@ MLB-Game-Winner-Predictor/
 
 Best model so far: Gradient Boosting
 
+## 🧪 Sample Predictions
+### Game: 2025_06_09_LA_SDN
+🔴 Actual Result: Away Team (LAN) won 8–7
+SD Padres were the home team
+| Model              | Prediction         | Confidence                              |
+|-------------------|--------------------|-----------------------------------------|
+| SVC               | Home Team Wins     | 100.00%                                  |
+| XGBoost           | Home Team Loses    | 54.23%                                   |
+| Nearest Centroid  | Home Team Wins     | N/A (model does not support probabilities) |
+| MLP               | Home Team Wins     | 97.45%                                   |
+| Gradient Boosting | Home Team Loses    | 58.56%                                   |
+
+Majority Vote Prediction: ❌ Incorrect — Predicted Home Team Wins
+(3 out of 5 models predicted the home team would win)
+
+### Game: 2025_06_10_LA_SDN
+🟢 Actual Result: Home Team (SDN) won 11–1
+SD Padres were the home team
+| Model              | Prediction         | Confidence                              |
+|-------------------|--------------------|-----------------------------------------|
+| SVC               | Home Team Wins     | 100.00%                                  |
+| XGBoost           | Home Team Loses    | 68.58%                                   |
+| Nearest Centroid  | Home Team Loses    | N/A (model does not support probabilities) |
+| MLP               | Home Team Wins     | 88.16%                                   |
+| Gradient Boosting | Home Team Loses    | 64.05%                                   |
+
+Majority Vote Prediction: ❌ Incorrect — Predicted Away Team Wins
+(Only 2 out of 5 models predicted the home team would win)
 ## Future Work
 
 - Fine-tune existing models – Optimize hyperparameters to improve predictive accuracy and generalization.
