@@ -70,7 +70,7 @@ MLB-Game-Winner-Predictor/
 Best model so far: Gradient Boosting
 
 ## 🧪 Sample Predictions
-### Game: 2025_06_09_LA_SDN
+### Game: 2025_06_09_LAN_SDN
 🔴 Actual Result: Away Team (LAN) won 8–7
 SD Padres were the home team
 | Model              | Prediction         | Confidence                              |
@@ -84,7 +84,7 @@ SD Padres were the home team
 Majority Vote Prediction: ❌ Incorrect — Predicted Home Team Wins
 (3 out of 5 models predicted the home team would win)
 
-### Game: 2025_06_10_LA_SDN
+### Game: 2025_06_10_LAN_SDN
 🟢 Actual Result: Home Team (SDN) won 11–1
 SD Padres were the home team
 | Model              | Prediction         | Confidence                              |
